@@ -1,0 +1,131 @@
+
+*, html, head, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #c2c2c2
+}
+
+.center {
+display: inline-block;
+word-wrap: break-word;
+width: 59%;
+vertical-align: middle;
+}
+
+
+html {
+	font-family: Arial, sans-serif;
+	background: #F1F1F1;
+}
+
+.wrapper{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+
+input {
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+input[type="search"] {
+	width: 89%;
+    height: 100px;
+    border: 0;
+    font-size: 100px;
+    font-weight: bold;
+    color: #ec5a62;
+    background: #F1F1F1;
+    
+}
+
+input[type="image"] {
+	width: 10%;
+}
+
+form{
+	width:100%;
+	padding:0;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.wrapper_spiski {
+	width:100%;
+	padding:0;
+	max-width: 1000px; 
+}
+
+.spiski {
+	height: 500px;
+	width: 33%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+	width: 90%;
+}
+
+li {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+}
+
+li p {
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 15px;
+	width: 70%;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+a {
+	background-color: rgba(118, 117, 128, 0.05);
+	height: 70px;
+	margin-bottom: 4px;
+	border-radius: 6px;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	color: #C6C6C6;	
+}
+
+a:hover {
+	background-color: rgba(118, 117, 128, 0.1);
+	color: #ec5a62;
+}
+
+.title, .popular, .recent {
+	font-weight: bold;
+	color: #C6C6C6;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+img {
+	width: 18%;
+	vertical-align: middle;
+	margin-left: 3%;
+	margin-top: 3.5%;
+}
+
+.radius {
+	border-radius: 50%;
+}
+
+
+
